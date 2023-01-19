@@ -22,15 +22,15 @@ Moreover, there were some values that were anomalous. Some columns contain zero 
 ## EDA (in assumption)
 First, I looked up the all numeric features' distribution and plot Q-Q plot to check whether it is normlity, one of the results as below chart shown. 
 
-![Screenshot](/housing_price/graphs/housing_median_age.png)
+![Screenshot](./housing_price/graphs/housing_median_age.png)
 
 The distribution plot shows that it is skewed left. The Q-Q plot shows that it may close to a uniform distribution.
 
-![Screenshot](/housing_price/graphs/pairplot.png)
+![Screenshot](./housing_price/graphs/pairplot.png)
 
 xy relationship chart shows that median_income, bedroom over the total room, and household over the population have linear relatonship to the target.
 
-![Screenshot](/housing_price/graphs/heatmap.png)
+![Screenshot](./housing_price/graphs/heatmap.png)
 
 The answer is clearly explained by the chart. population vs household and total_bedroom vs total_room have the closest explanation power to the target.
 
